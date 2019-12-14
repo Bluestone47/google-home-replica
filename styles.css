@@ -72,7 +72,7 @@ body {
 }
 
 .search-logo {
-    float: left;
+    /* float: left; */
     margin: auto;
     display: block;
     width: 20px;
@@ -94,31 +94,26 @@ input:focus {
     outline: none;
 }
 
-.voice-button-container {
+.voice-button {
     position: absolute;
+    left: 50%;
+    margin-left: 280px;
+    margin-top: 3px;
     border: 1px solid #dadce0;
     border-radius: 74%;
-    margin-right: 10px;
-    float: left;
-    background: none;
+    background: url(//www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) 0 0 no-repeat;
+    background-size: 24px;
+    background-position: center;
     padding: 10px;
     width: 24px;
     height: 24px;
-    right: 25%;
-}
-
-.voice-button {
-    background: url(//www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) 0 0 no-repeat;
-    height: 24px;
-    width: 24px;
-    background-size: 24px;
-    vertical-align: middle;
 }
 
 .search-button-container {
     margin: 0 auto;
     display: flex;
     width: 487px;
+    height: 46px;
     padding-top: 18px;
 }
 
@@ -131,16 +126,18 @@ input:focus {
     padding: 0 24px;
     font-size: 14px;
     width: 145px;
+    height: 100%;
 }
 
 .search-button-container .lucky-button {
     margin: auto;
     background: white;
     color: #1a73e8;
-    border-color: white;
+    border: none;
     padding: 0 24px;
     font-size: 14px;
     width: 145px;
+    height: 100%;
 }
 
 .foot-bar {
