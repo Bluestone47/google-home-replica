@@ -26,7 +26,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 150px;
+    margin-top: 130px;
     padding-bottom: 20px;
     width: 272px;
     height: 92px;
@@ -51,9 +51,6 @@ body {
     border: 1px solid #dfe1e5;
     box-shadow: none;
     border-radius: 24px;
-    z-index: 3;
-    height: 38px;
-    width: 482px;
 }
 
 .search-logo {
@@ -67,9 +64,9 @@ body {
 }
 
 input {
-    width: 427px;
-    height: 34px;
     border: 0;
+    width: 500px;
+    height: 34px;
     font-size: 1.5em;
 }
 
@@ -80,7 +77,7 @@ input:focus {
 .voice-button {
     position: absolute;
     left: 50%;
-    margin: 2px 0 2px 280px;
+    margin: 2px 0 2px 300px;
     border: 1px solid #dadce0;
     border-radius: 74%;
     background: url(//www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) 0 0 no-repeat;
