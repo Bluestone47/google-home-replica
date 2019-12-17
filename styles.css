@@ -80,8 +80,7 @@ input:focus {
 .voice-button {
     position: absolute;
     left: 50%;
-    margin-left: 280px;
-    margin-top: 3px;
+    margin: 2px 0 2px 280px;
     border: 1px solid #dadce0;
     border-radius: 74%;
     background: url(//www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) 0 0 no-repeat;
@@ -133,27 +132,33 @@ input:focus {
     bottom: 0;
     left: 0;
     right: 0;
-    width: 100%;
+    width: 100vw;
     height: 82px;
 }
 
-.foot-bar .foot-top {
+.foot-top {
     color: #111111;
     font-size: 15px;
     padding-left: 20px;
 }
 
-.foot-bar .foot-bottom {
+.foot-bottom {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     border-top: 1px solid #e4e4e4;
+    padding: 0 10px 0;
 }
 
 .foot-bottom a {
     color: #111111;
     text-decoration: none;
+    padding: 0 10px 0;
 }
 
 .foot-bottom a:hover {
     text-decoration: underline;
+}
+
+.foot-bottom a.divider {
+    margin-left: auto;
 }
