@@ -13,6 +13,10 @@ body {
     text-decoration: none;
 }
 
+.head-bar.right {
+    float: right;
+}
+
 .head-bar:hover {
     cursor: pointer;
     text-decoration: underline;
@@ -60,10 +64,6 @@ body {
     width: 20px;
     height: 38px;
     opacity: 0.5;
-}
-
-.input-container {
-    display: inline-block;
 }
 
 input {
