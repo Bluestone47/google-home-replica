@@ -40,7 +40,7 @@ body {
     vertical-align: middle;
     margin: auto;
     left: 25%;
-    padding: 5px 8px 0 14px;
+    padding: 3px 8px 3px 14px;
     background: #fff;
     display: flex;
     border-radius: 8px;
@@ -52,20 +52,14 @@ body {
     width: 482px;
 }
 
-.search-logo-container {
+.search-logo {
     display: flex;
     align-items: center;
-    padding-right: 13px;
-    margin-top: -5px;
-    opacity: 0.5;
-}
-
-.search-logo {
-    /* float: left; */
-    margin: auto;
+    margin: 0 10px 0 0;
     display: block;
     width: 20px;
-    height: 20px;
+    height: 38px;
+    opacity: 0.5;
 }
 
 .input-container {
