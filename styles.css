@@ -77,6 +77,7 @@ input:focus {
 .dropdown {
     width: 100%;
     margin: 0 auto;
+    display: none;
 }
 
 hr {
@@ -85,7 +86,7 @@ hr {
     border: 0.5px solid #dfe1e5;
 }
 
-.history-bar:hover {
+.dropdown-item:hover {
     background-color: #ccc;
 }
 
