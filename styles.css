@@ -75,14 +75,22 @@ input:focus {
 }
 
 .dropdown {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    display: block;
-    border-top: 1px solid #ccc;
+}
+
+hr {
+    margin: auto;
+    width: 90%;
+    border: 0.5px solid #dfe1e5;
+}
+
+.history-bar:hover {
+    background-color: #ccc;
 }
 
 p.history {
-    height: 30px;
+    color: purple;
 }
 
 #dropdown-button {
