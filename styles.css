@@ -62,6 +62,19 @@ body {
     opacity: 0.5;
 }
 
+.history-logo {
+    background: url(/images/searchbox/desktop_searchbox_sprites302_hr.webp) no-repeat 0 -21px;
+    background-size: 20px;
+    display: flex;
+    flex: 0 1 auto;
+    align-items: center;
+    margin-right: 14px;
+    min-height: 20px;
+    min-width: 20px;
+    height: 20px;
+    width: 20px;
+}
+
 input {
     border: 0;
     width: 500px;
@@ -77,21 +90,40 @@ input:focus {
 .dropdown {
     width: 100%;
     margin: 0 auto;
-    display: none;
+    display: block;
 }
 
 hr {
     margin: auto;
-    width: 90%;
+    margin-bottom: 5px;
+    width: 95%;
     border: 0.5px solid #dfe1e5;
 }
 
+.dropdown-item {
+    align-items: center;
+    height: 25px;
+}
+
 .dropdown-item:hover {
-    background-color: #ccc;
+    background-color: #eee;
 }
 
 p.history {
     color: purple;
+    display: block;
+    width: 440px;
+}
+
+a.remove {
+    color: #80868b;
+    cursor: pointer;
+    font: 13px arial, sans-serif;
+}
+
+a.remove:hover {
+    color: #1a73e8;
+    text-decoration: underline;
 }
 
 #dropdown-button {
