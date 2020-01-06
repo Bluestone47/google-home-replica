@@ -6,11 +6,12 @@ const dropdownButton = document.getElementById('dropdown-button')
 history.map(string => {
     const historyHTMLString = `
     <div class="search-bar dropdown-item">
-        <div class="search-logo history-logo"></div>
+        <div class="history-logo"></div>
         <p class="history">${string}</p>
         <a class="remove">Remove</a>
     </div>
     `
+    
     const historyHTML = new DOMParser().parseFromString(historyHTMLString, 'text/html').body.childNodes[0]
     dropdownList.insertBefore(historyHTML, dropdownButton)
 })
