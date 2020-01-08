@@ -80,7 +80,7 @@ input {
     border: 0;
     width: 500px;
     height: 38px;
-    font: 16px arial,sans-serif;
+    font: 16px arial, sans-serif;
     background-color: transparent;
 }
 
@@ -112,6 +112,7 @@ hr {
 
 p.history {
     color: purple;
+    font-size: 16px;
     display: block;
     width: 440px;
 }
@@ -148,32 +149,29 @@ a.remove:hover {
 .search-button-container {
     margin: 0 auto;
     display: flex;
+    justify-content: center;
     width: 387px;
     height: 36px;
     padding-top: 18px;
 }
 
-.search-button-container .search-button {
-    margin-left: auto;
-    color: #1a73e8;
-    background: white;
+.search-button-container button {
+    margin: 0px 4px;
+    color: #5F6368;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
     border-radius: 4px;
-    border: 1px solid #dadce0;
-    padding: 0 24px;
     font-size: 14px;
     width: 145px;
     height: 100%;
 }
 
-.search-button-container .lucky-button {
-    margin: auto;
-    background: white;
-    color: #1a73e8;
-    border: none;
-    padding: 0 24px;
-    font-size: 14px;
-    width: 160px;
-    height: 100%;
+.search-button-container button:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
 }
 
 .foot-bar {
